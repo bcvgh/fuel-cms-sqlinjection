@@ -21,7 +21,8 @@ Enter line 4421 of MY_Model.php, pass parameters to `$this->db->where()` method
 
 ![image](https://github.com/bcvgh/fuel-cms-sqlinjection/assets/56790427/8400c273-d6ae-479a-a4e8-154eb907d316)
 
-At this time, the external input string is spliced into the SQL statement through the `$this->db->where()` method, but at this time the external input will be surrounded by single quotes Contains, so no injection has been caused yet.
+At this time, the external input string is spliced into the SQL statement through the `$this->db->where()` method, 
+But at this time, the external input will be surrounded by single quotes because of codeigniter's safe processing of the where method, so the injection has not yet been caused..
 
 ![image](https://github.com/bcvgh/fuel-cms-sqlinjection/assets/56790427/aee8ea06-c1cb-48eb-80f2-7e6172681ec4)
 
