@@ -1,7 +1,7 @@
 https://github.com/daylightstudio/FUEL-CMS
 download source code
 
-Need to login to the background.
+login required.
 
 `fuel/modules/fuel/controllers/Blocks.php`
 
